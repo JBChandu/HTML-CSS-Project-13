@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300;1,400&family=Roboto:wght@100;400&display=swap");
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto;
+}
+/* navbar  */
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: end;
+  align-items: center;
+}
+.navbar-logo {
+  height: 40px;
+  margin-left: 10%;
+}
+nav .list-items {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  list-style-type: none;
+}
+.list-item {
+  text-align: Center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.nav-btn {
+  margin-left: 30%;
+  margin-right: 10%;
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 10px;
+  border: 0;
+  background: #08a0ff;
+}
+
+.navbar {
+  background-color: #5a20cb;
+  border-radius: 8px 8px 0 0;
+}
+/* banner section */
+.banner-section {
+  background-color: #5a20cb;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.banner-section .left {
+  margin-left: 8%;
+  padding: 0 15px;
+  margin-top: -5%;
+}
+.banner-section .left h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.banner-section .left p {
+  margin-bottom: 5%;
+}
+.banner-btn {
+  color: #fff;
+  background-color: #08a0ff;
+  border: 0;
+  padding: 10px 20px;
+}
+/* points section */
+.points-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+.points-section .right {
+  line-height: 2;
+  padding-left: 10%;
+  margin-left: 10%;
+  margin-right: 3%;
+}
+.points-section .right h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: -5%;
+}
+.points-section .right h3::before {
+  content: url("../public/assets/greenarrow.svg");
+}
+/* card section */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5%;
+  margin: 0 7%;
+}
+
+.card img {
+  height: 100px;
+}
+
+/* bottom page */
+.bottom-heading {
+  text-align: center;
+  margin: 3% 0;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card img {
+  padding-left: 30%;
+}
+.card-content {
+  text-align: center;
+}
+.card-content-active {
+  background-color: #5a20cb;
+  color: #fff;
+  border-radius: 10px;
+}
