@@ -123,3 +123,44 @@ nav .list-items {
   color: #fff;
   border-radius: 10px;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 1060px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 787px) {
+  .list-item {
+    display: none;
+  }
+  .banner-section .left h1 {
+    font-size: 21px;
+    margin-top: 10%;
+  }
+  .banner-section .left p {
+    font-size: 12px;
+  }
+  .banner-section .left button {
+    margin-bottom: 10%;
+  }
+  .card-img {
+    margin-left: -10%;
+  }
+  .points-section .right h1 {
+    line-height: 1.2;
+    font-size: 18px;
+  }
+  .points-section .right h3 {
+    font-size: 16px;
+  }
+  .points-section .right p {
+    font-size: 12px;
+  }
+  .bottom-heading {
+    font-size: 21px;
+  }
+  .nav-btn {
+    margin-top: 5%;
+  }
+}
